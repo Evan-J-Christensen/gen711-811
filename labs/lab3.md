@@ -62,16 +62,28 @@ The pound sign is used for 'sections'. A single pound (or hashtag) in front of a
 
 To change directories, use 'cd' and then hit tab two times to see directories in my current directory
 
-
-
-
+- ```pwd``` present working directory
+- ```ls``` list
+    - ```-F``` lists directories
+    - ```-lrth``` multiple options
+- ```clear``` clears terminal
+- ```cd``` change directory
+    - ```cd ../``` move out one level
+    - ```cd ~``` home directory
+- ```head``` view heading of file
+- ```grep``` global regular expression print. searches for something
+    - Search at beginning of line by using ```^``` before the string
+- ```history``` to view command history
+- ```man``` manual
+- If you hit tab twice you can see all possible autocompletes
 
 ### Complete the questions below when intrstructed. Push the changes to this document to recive credit for attending the lab
 
 #### 1. What are 3 ways to change directories to your home directory from the  untrimmed_fastq directory?
-1.
-2.
-3.
+1. ```cd $HOME```
+2. ```cd ~```
+3. ```cd ../../../```
+4. ```cd /home/users/ejc1107```
 
 #### 2. How many programs in /bin 
 2. Do each of the following tasks from your current directory using a single ls command for each:
@@ -81,9 +93,11 @@ To change directories, use 'cd' and then hit tab two times to see directories in
     - Bonus: List all of the files in /bin that contain the letter ‘a’ or the letter ‘c’.
 
 #### Answers here
-Start with the letter c ____
-Start with the letter a ____
-Start with the letter o ____
-Contain the letter ‘a’ or the letter ‘c’ ____
+First I used ```cd /bin``` to get to /bin
+
+Start with the letter c ```ls c*```
+Start with the letter a ```ls a*```
+Start with the letter o ```ls o*```
+Contain the letter ‘a’ or the letter ‘c’ ```ls *a* | ls *c*```
 
 #### What command/commands would you use to find the line number in your history for the command that listed all the '.fastq' files using the absolute path. Paste your answer below.
