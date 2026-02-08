@@ -75,6 +75,7 @@ To change directories, use 'cd' and then hit tab two times to see directories in
     - Search at beginning of line by using ```^``` before the string
 - ```history``` to view command history
 - ```man``` manual
+- ```wc -l``` count
 - If you hit tab twice you can see all possible autocompletes
 
 ### Complete the questions below when intrstructed. Push the changes to this document to recive credit for attending the lab
