@@ -2,6 +2,20 @@
 ## Spring 2024
 ### [Lab 1](labs/lab1.md) (take home lab, 01/27/26)
 ### [Lab 2](labs/lab2.md) (01/30/26)
+### [Lab 3](labs/lab3.md) (02/06/26)
+### [Lab 4](labs/lab4.md) (02/13/26)
+### [Lab 5](labs/lab5.md) (02/20/26)
+### [Lab 6](labs/lab6.md) (02/27/26)
+### Use the copy/paste method again for lab7
+### [Lab 7](labs/lab7.md) (02/27/26)
+
+## For your Gen711-811 repo
+
+cd ~/Gen711-811
+git remote add upstream https://github.com/jthmiller/gen711-811
+git fetch upstream
+
+
 
 <<<<<<< HEAD
 THis is new text just added!
