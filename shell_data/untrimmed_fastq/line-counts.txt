@@ -1,0 +1,2 @@
+]633;E;for fq in *fastq;5611e50d-c9a2-4513-b107-5be074b6e267]633;C996 SRR097977.fastq
+996 SRR098026.fastq
